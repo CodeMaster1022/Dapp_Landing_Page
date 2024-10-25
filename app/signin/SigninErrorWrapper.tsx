@@ -4,17 +4,17 @@ import {toast} from 'react-toastify';
 
 import type {FC, ReactNode} from 'react';
 
-// export type SignInPageErrorParam =
-//   | 'Signin'
-//   | 'OAuthSignin'
-//   | 'OAuthCallback'
-//   | 'OAuthCreateAccount'
-//   | 'EmailCreateAccount'
-//   | 'Callback'
-//   | 'OAuthAccountNotLinked'
-//   | 'EmailSignin'
-//   | 'CredentialsSignin'
-//   | 'SessionRequired'
+export type SignInPageErrorParam =
+  | 'Signin'
+  | 'OAuthSignin'
+  | 'OAuthCallback'
+  | 'OAuthCreateAccount'
+  | 'EmailCreateAccount'
+  | 'Callback'
+  | 'OAuthAccountNotLinked'
+  | 'EmailSignin'
+  | 'CredentialsSignin'
+  | 'SessionRequired'
 
 type Props = {
   error?: SignInPageErrorParam;
