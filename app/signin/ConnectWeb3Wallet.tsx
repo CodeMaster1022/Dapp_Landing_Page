@@ -9,13 +9,13 @@ const ConnectWeb3Wallet = () => {
   if (session) {
     return (
       <div className="surface pb-5">
-        {
+        {/* {
           session &&
           <div className="text-base text-center font-medium">
             Disconnect your Web3 wallet*
             <div className="text-xs mt-1 mb-3.5">*this action will Log you out</div>
           </div>
-        }
+        } */}
         <SiweButton/>
       </div>
     );
