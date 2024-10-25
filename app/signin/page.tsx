@@ -42,9 +42,9 @@ const SigninPage: FC<{searchParams: Record<string, string | undefined>}> = ({sea
           </h1>
           <div className='flex flex-col items-center gap-2 w-md max-w-[90vw] mt-3'>
             <ConnectWeb3Wallet />
-            {/* <Button onClick={() => setWeb3ModalOpen(true)} variant='transparent' size='large'>
+            <Button onClick={() => setWeb3ModalOpen(true)} variant='transparent' size='large'>
               Connect Wallet
-            </Button> */}
+            </Button>
             <div className='flex flex-col gap-4 divide-y-[1px]'>
               { !session ?
                 <>
