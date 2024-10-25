@@ -13,10 +13,10 @@ import type {FC} from 'react';
 
 type Provider = 'siwe' | 'google';
 
-const providersData: Record<Provider, { name: string; verb?: string; buttonVariant?:  ButtonProps['variant'] }> = {
-  siwe: {name: 'Web3 Wallet', verb: 'Connect', buttonVariant: 'transparent'},
-  google: {name: 'Google', verb: 'Connect'}
-} as const;
+// const providersData: Record<Provider, { name: string; verb?: string; buttonVariant?:  ButtonProps['variant'] }> = {
+//   siwe: {name: 'Web3 Wallet', verb: 'Connect', buttonVariant: 'transparent'},
+//   google: {name: 'Google', verb: 'Connect'}
+// } as const;
 
 type Props = {
   provider: Pick<ClientSafeProvider, 'id' | 'name'>;
