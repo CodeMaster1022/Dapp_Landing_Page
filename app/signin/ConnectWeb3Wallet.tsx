@@ -25,9 +25,9 @@ const ConnectWeb3Wallet = () => {
     <div className="surface drop-shadow-lg pb-5">
       {
         !session &&
-        // <div className="text-base text-center font-medium mb-3.5">
-        //   Connect Web3 wallet for instant access
-        // </div>
+        <div className="text-base text-center font-medium mb-3.5">
+          Connect Web3 wallet for instant access
+        </div>
       }
       <SiweButton/>
     </div>
