@@ -45,7 +45,7 @@ const SigninPage: FC<{searchParams: Record<string, string | undefined>}> = ({sea
             {/* <Button onClick={() => setWeb3ModalOpen(true)} variant='transparent' size='large'>
               Connect Wallet
             </Button> */}
-            {/* <div className='flex flex-col gap-4 divide-y-[1px]'>
+            <div className='flex flex-col gap-4 divide-y-[1px]'>
               { !session ?
                 <>
                   <div className='pb-5 surface'>
@@ -89,7 +89,7 @@ const SigninPage: FC<{searchParams: Record<string, string | undefined>}> = ({sea
                     </SigninErrorWrapper>
                   </Suspense>
                 </div> }
-            </div> */}
+            </div>
           </div>
         </div>
         <MaskMaker className='fixed -top-[30%]' width={500} height={500} position='top-right' color='blue' />
