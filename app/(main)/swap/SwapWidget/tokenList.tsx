@@ -39,21 +39,21 @@ const tokenList: TokenField[] = [
     decimals: 6,
     watch: true,
   },
-  {
-    id: 3,
-    tokenURI: '/coin/icon-matic.svg',
-    tokenAddress: '0x0000000000000000000000000000000000001010',
-    tokenName: 'Polygon',
-    tokenSymbol: 'MATIC',
-    decimals: 18,
-  },
-  {
-    id: 4,
-    tokenURI: '/coin/icon-dai.svg',
-    tokenAddress: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
-    tokenName: 'Dai',
-    tokenSymbol: 'DAI',
-    decimals: 18,
-  },
+  // {
+  //   id: 3,
+  //   tokenURI: '/coin/icon-matic.svg',
+  //   tokenAddress: '0x0000000000000000000000000000000000001010',
+  //   tokenName: 'Polygon',
+  //   tokenSymbol: 'MATIC',
+  //   decimals: 18,
+  // },
+  // {
+  //   id: 4,
+  //   tokenURI: '/coin/icon-dai.svg',
+  //   tokenAddress: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
+  //   tokenName: 'Dai',
+  //   tokenSymbol: 'DAI',
+  //   decimals: 18,
+  // },
 ];
 export default tokenList;
